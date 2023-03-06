@@ -6,7 +6,7 @@ import Detail from "./components/Detail/Detail.jsx";
 import Create from "./components/Create/Create.jsx";
 import Page404 from "./components/Page404/Page404.jsx";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://proyectend-production.up.railway.app/";
 
 function App() {
   return (
