@@ -1,0 +1,57 @@
+.buscar input{
+    height: 6vh;
+    width: 25vw;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #07698f;
+    margin: 0 20px;
+    border: 1px solid white;
+    color:beige;
+    padding: 15px;
+    box-shadow: 
+    0 0 2px rgb(255 240 243), 
+    0 0 4px #4568dcdb, 
+    0 0 6px #4568dcbf, 
+    0 0 8px #4568dc, 
+    0 0 10px #4568dc, 
+    0 0 12px #4568dc;
+}
+
+::placeholder {
+    color:beige;
+    padding: 4px;
+}
+
+/* .btn {
+    background-color: #6D6875;
+    color: #FFCDB2;
+    height: 25px;
+    margin-top: 6px;
+}
+    
+.btn:hover {
+    background-color: #E5989B;
+}
+    
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+    } */
+
+.btn {
+    background-color: #2b2d42;
+    border: none;
+    cursor: pointer;
+}
+
+.btn img {
+    height: 35px;
+    margin: -11px;
+}
+.btn:active {
+    background-color: darkgrey;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    }
